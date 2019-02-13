@@ -1,0 +1,125 @@
+CI5_continent,area,registry,registry_label,graph_label,year1,year2,ethnic_group,selection
+1,99,800002,Uganda_Kampala,"Uganda, Kampala",1993,2012,0,0
+2,99,76002,Brazil_Goiania,"Brazil, Goiania",1993,2012,0,0
+2,99,152001,Chile_Valdivia,"Chile, Valdivia",1998,2012,0,0
+2,99,170001,Colombia_Cali,"Colombia, Cali",1983,2012,0,0
+2,99,188000,Costa_Rica,"Costa, Rica",1982,2011,0,0
+2,99,218001,Ecuador_Quito,"Ecuador, Quito",1985,2012,0,0
+2,99,250091,France_Martinique,"France, Martinique",1998,2012,0,0
+3,99,124000,Canada_(excl._Nunavut_Quebec_Yukon),"Canada, (excl. Nunavut Quebec Yukon)",1983,2012,0,0
+3,99,840001,USA_California_Los_Angeles,"USA, California Los Angeles",1973,2012,0,0
+3,99,840001,USA_California_Los_Angeles-White,"USA, California Los Angeles: White",1973,2012,1,0
+3,99,840001,USA_California_Los_Angeles-Black,"USA, California Los Angeles: Black",1973,2012,2,0
+3,99,840001,USA_California_Los_Angeles-Chinese,"USA, California Los Angeles: Chinese",1973,2012,4,0
+3,99,840001,USA_California_Los_Angeles-Japanese,"USA, California Los Angeles: Japanese",1973,2012,5,0
+3,99,840001,USA_California_Los_Angeles-Filipino,"USA, California Los Angeles: Filipino",1973,2012,6,0
+3,99,840001,USA_California_Los_Angeles-Korean,"USA, California Los Angeles: Korean",1973,2012,8,0
+3,99,840001,USA_California_Los_Angeles-Hispanic-White,"USA, California Los Angeles: Hispanic White",1973,2012,17,0
+3,99,840001,USA_California_Los_Angeles-Non-Hispanic-White,"USA, California Los Angeles: Non Hispanic White",1973,2012,19,0
+3,99,840020,USA_SEER,"USA, SEER",1978,2012,0,0
+3,99,840020,USA_SEER-White,"USA, SEER: White",1978,2012,1,0
+3,99,840020,USA_SEER-Black,"USA, SEER: Black",1978,2012,2,0
+3,99,840080,USA_NPCR,"USA, NPCR",1998,2012,0,0
+3,99,840080,USA_NPCR-White,"USA, NPCR: White",1998,2012,1,0
+3,99,840080,USA_NPCR-Black,"USA, NPCR: Black",1998,2012,2,0
+3,99,840080,USA_NPCR-American-Indian-Alaskan-Native,"USA, NPCR: American Indian Alaskan Native",1998,2012,3,0
+3,99,840080,USA_NPCR-Asian-Pacific-Islander,"USA, NPCR: Asian Pacific Islander",1998,2012,90,0
+4,99,48000,Bahrain-Bahraini,Bahrain: Bahraini,1998,2012,46,0
+4,99,156003,China_Shanghai,"China, Shanghai",1988,2012,0,0
+4,99,156007,China_Jiashan,"China, Jiashan",1993,2012,0,0
+4,99,156014,China_Zhongshan,"China, Zhongshan",1998,2012,0,0
+4,99,156015,China_Harbin,"China, Harbin",1998,2012,0,0
+4,99,156030,China_HongKong,"China, HongKong",1978,2012,0,0
+4,99,356004,India_Chennai,"India, Chennai",1983,2012,0,0
+4,99,376000,Israel,Israel,1963,2012,0,0
+4,99,376000,Israel-Jews,Israel: Jews,1963,2012,51,0
+4,99,376000,Israel-non-Jews,Israel: non Jews,1988,2012,55,0
+4,99,392002,Japan_Miyagi,"Japan, Miyagi",1978,2010,0,0
+4,99,392003,Japan_Nagasaki,"Japan, Nagasaki",1988,2012,0,0
+4,99,392004,Japan_Osaka,"Japan, Osaka",1973,2012,0,0
+4,99,392009,Japan_Fukui,"Japan, Fukui",1998,2012,0,0
+4,99,410002,Korea_Busan,"Korea, Busan",1998,2012,0,0
+4,99,410003,Korea_Seoul,"Korea, Seoul",1993,2012,0,0
+4,99,410008,Korea_Ulsan,"Korea, Ulsan",1999,2012,0,0
+4,99,410010,Korea_Gwangju,"Korea, Gwangju",1998,2012,0,0
+4,99,410011,Korea_Incheon,"Korea, Incheon",1998,2012,0,0
+4,99,414000,Kuwait-Kuwaiti,Kuwait: Kuwaiti,1998,2012,42,0
+4,99,608002,Philippines_Manila,"Philippines, Manila",1983,2012,0,0
+4,99,764002,Thailand_ChiangMai,"Thailand, ChiangMai",1983,2012,0,0
+4,99,764003,Thailand_KhonKaen,"Thailand, KhonKaen",1993,2012,0,0
+4,99,764004,Thailand_Songkhla,"Thailand, Songkhla",1993,2012,0,0
+4,99,764005,Thailand_Lampang,"Thailand, Lampang",1993,2012,0,0
+4,99,792001,Turkey_Izmir,"Turkey, Izmir",1998,2012,0,0
+4,99,792002,Turkey_Antalya,"Turkey, Antalya",1998,2012,0,0
+5,99,40000,Austria,Austria,1998,2012,0,0
+5,99,40007,Austria_Tyrol,"Austria, Tyrol",1988,2012,0,0
+5,99,40008,Austria_Vorarlberg,"Austria, Vorarlberg",1993,2012,0,0
+5,99,100000,Bulgaria,Bulgaria,1998,2012,0,0
+5,99,112000,Belarus,Belarus,1983,2012,0,0
+5,99,191000,Croatia,Croatia,1988,2012,0,0
+5,99,196000,Cyprus,Cyprus,1998,2012,0,0
+5,99,203000,Czech_Republic,Czech Republic,1983,2012,0,0
+5,99,208000,Denmark,Denmark,1953,2012,0,0
+5,99,233000,Estonia,Estonia,1983,2012,0,0
+5,99,250001,France_Bas-Rhin,"France, Bas-Rhin",1977,2011,0,0
+5,99,250002,France_Calvados,"France, Calvados",1978,2012,0,0
+5,99,250004,France_Doubs,"France, Doubs",1978,2012,0,0
+5,99,250005,France_Haut-Rhin,"France, Haut-Rhin",1988,2012,0,0
+5,99,250006,France_Manche,"France, Manche",1994,2012,0,0
+5,99,250007,France_Herault,"France, Herault",1988,2012,0,0
+5,99,250008,France_Isere,"France, Isere",1979,2012,0,0
+5,99,250012,France_Somme,"France, Somme",1983,2012,0,0
+5,99,250014,France_Loire-Atlantique,"France, Loire-Atlantique",1998,2012,0,0
+5,99,276002,Germany_Hamburg,"Germany, Hamburg",1998,2012,0,0
+5,99,276003,Germany_Saarland,"Germany, Saarland",1973,2012,0,0
+5,99,352000,Iceland,Iceland,1958,2012,0,0
+5,99,372000,Ireland,Ireland,1994,2012,0,0
+5,99,380005,Italy_Parma,"Italy, Parma",1978,2012,0,0
+5,99,380006,Italy_Ragusa,"Italy, Ragusa",1983,2012,0,0
+5,99,380007,Italy_Romagna,"Italy, Romagna",1988,2012,0,0
+5,99,380016,Italy_Naples,"Italy, Naples",1998,2012,0,0
+5,99,380017,Italy_Biella,"Italy, Biella",1998,2012,0,0
+5,99,380019,Italy_Veneto,"Italy, Veneto",1991,2010,0,0
+5,99,380020,Italy_Modena,"Italy, Modena",1988,2012,0,0
+5,99,380022,Italy_Ferrara,"Italy, Ferrara",1992,2011,0,0
+5,99,440000,Lithuania,Lithuania,1988,2012,0,0
+5,99,470000,Malta,Malta,1993,2012,0,0
+5,99,528000,Netherlands,Netherlands,1989,2012,0,0
+5,99,578000,Norway,Norway,1953,2012,0,0
+5,99,616007,Poland_Kielce,"Poland, Kielce",1998,2012,0,0
+5,99,703000,Slovakia,Slovakia,1971,2010,0,0
+5,99,705000,Slovenia,Slovenia,1983,2012,0,0
+5,99,724002,Spain_Basque-Country,"Spain, Basque-Country",1988,2012,0,0
+5,99,724003,Spain_Tarragona,"Spain, Tarragona",1983,2012,0,0
+5,99,724004,Spain_Granada,"Spain, Granada",1988,2012,0,0
+5,99,724005,Spain_Murcia,"Spain, Murcia",1986,2010,0,0
+5,99,724006,Spain_Navarra,"Spain, Navarra",1976,2010,0,0
+5,99,724009,Spain_Albacete,"Spain, Albacete",1991,2010,0,0
+5,99,724010,Spain_Girona,"Spain, Girona",1993,2012,0,0
+5,99,724011,Spain_Canary-Islands,"Spain, Canary-Islands",1993,2011,0,0
+5,99,724013,Spain_Cuenca,"Spain, Cuenca",1993,2011,0,0
+5,99,756002,Switzerland_Geneva,"Switzerland, Geneva",1973,2012,0,0
+5,99,756003,Switzerland_Neuchatel,"Switzerland, Neuchatel",1983,2012,0,0
+5,99,756004,Switzerland_St Gall-Appenzell,"Switzerland, St Gall-Appenzell",1983,2012,0,0
+5,99,756005,Switzerland_Vaud,"Switzerland, Vaud",1988,2012,0,0
+5,99,756008,Switzerland_Valais,"Switzerland, Valais",1993,2012,0,0
+5,99,756010,Switzerland_Ticino,"Switzerland, Ticino",1998,2012,0,0
+5,99,826020,UK_Scotland,"UK, Scotland",1978,2012,0,0
+5,99,826030,UK_Northern-Ireland,"UK, Northern-Ireland",1993,2012,0,0
+5,99,826065,UK_England_North-East,"UK, England, North-East",1995,2012,0,0
+5,99,826066,UK_England_North-West,"UK, England, North-West",1995,2012,0,0
+5,99,826068,UK_England_Yorkshire-Humber,"UK, England, Yorkshire-Humber",1995,2012,0,0
+5,99,826069,UK_England_East-Midlands,"UK, England, East-Midlands",1995,2012,0,0
+5,99,826070,UK_England_West-Midlands,"UK, England, West-Midlands",1995,2012,0,0
+5,99,826071,UK_England_East-England,"UK, England, East-England",1995,2012,0,0
+5,99,826072,UK_England_London,"UK, England, London",1995,2012,0,0
+5,99,826074,UK_England_South-East,"UK, England, South-East",1995,2012,0,0
+5,99,826075,UK_England_South-West,"UK, England, South-West",1995,2012,0,0
+6,99,36002,Australia_NSW_ACT,"Australia, NSW ACT",1983,2012,0,0
+6,99,36003,Australia_Queensland,"Australia, Queensland",1993,2012,0,0
+6,99,36004,South_Australia,South Australia,1978,2012,0,0
+6,99,36005,Australia_Tasmania,"Australia, Tasmania",1978,2012,0,0
+6,99,36006,Australia_Victoria,"Australia, Victoria",1983,2012,0,0
+6,99,36007,Western_Australia,Western Australia,1983,2012,0,0
+6,99,36008,Australia_Northern-Territories,"Australia, Northern-Territories",1993,2012,0,0
+6,99,554000,New_Zealand,New Zealand,1983,2012,0,0
