@@ -1,7 +1,7 @@
 import os
 from shutil import copyfile
 
-project_name = 'Dir13022019'
+project_name = 'test'
 dir_base = 'c:/projects/Occasional'
 dir_project = os.path.join(dir_base, project_name)
 
@@ -22,24 +22,24 @@ if not os.path.exists(dir_project):
     do_file.write('clear all\r\n')
 
     do_file.write('global dir_main ' + '"' + dir_project.replace('/', '\\') + '"' + '\r')
-    do_file.write('global dir_figs  "${dir_main}\_figs"\r')
-    do_file.write('global dir_dict  "${dir_main}\_dict"\r')
-    do_file.write('global dir_dta "${dir_main}\_data"\r\n')
+    do_file.write('global dir_figs  "${dir_main}\\_figs"\r')
+    do_file.write('global dir_dict  "${dir_main}\\_dict"\r')
+    do_file.write('global dir_dta "${dir_main}\\_data"\r\n')
 
-    do_file.write('global dir_DATA "C:\data"\r')
-    do_file.write('global dir_SHAPE "${dir_DATA}\_shape"\r')
+    do_file.write('global dir_DATA "C:\\data"\r')
+    do_file.write('global dir_SHAPE "${dir_DATA}\\_shape"\r')
     do_file.write('global dir_UNcode "${dir_DATA}\\UNcode"\r')
     do_file.write('global dir_UNDPpop "${dir_DATA}\\UNDPpop"\r')
-    do_file.write('global dir_CI5plus "${dir_DATA}\CI5plus"\r')
-    do_file.write('global dir_CI5XI "${dir_DATA}\CI5XI"\r')
-    do_file.write('global dir_GLOBO2018 "${dir_DATA}\Globocan2018"\r')
-    do_file.write('global dir_GHE "${dir_DATA}\GHE_mortality"\r')
-    do_file.write('global dir_WHO_mortality  "${dir_DATA}\WHO_mortality"\r\n')
+    do_file.write('global dir_CI5plus "${dir_DATA}\\CI5plus"\r')
+    do_file.write('global dir_CI5XI "${dir_DATA}\\CI5XI"\r')
+    do_file.write('global dir_GLOBO2018 "${dir_DATA}\\Globocan2018"\r')
+    do_file.write('global dir_GHE "${dir_DATA}\\GHE_mortality"\r')
+    do_file.write('global dir_WHO_mortality  "${dir_DATA}\\WHO_mortality"\r\n')
 
-    do_file.write('global dir_inkbash  "C:\Projects\inkbash"\r')
-    do_file.write('global dir_fix_label  "${dir_inkbash}\fix_label"\r\n')
+    do_file.write('global dir_inkbash  "C:\\Projects\\inkbash"\r')
+    do_file.write('global dir_fix_label  "${dir_inkbash}\\fix_label"\r\n')
 
-    do_file.write('global dir_maps_data "C:\Projects\Standard_maps\_data"\r\n')
+    do_file.write('global dir_maps_data "C:\\Projects\\Standard_maps\\_data"\r\n')
 
     do_file.write('*begin store local color \r\n')
 
@@ -78,7 +78,7 @@ if not os.path.exists(dir_project):
 
 
     r_file = open(os.path.join(dir_project,'main.r'),"w+")
-    r_file.write('setwd(' + '"' + dir_project + '")\r\n')
+    r_file.write('setwd(' + '"' + dir_project.replace('\\', '/') + '")\r\n')
 
     r_file.write('library(ggplot2)\r')
     r_file.write('library(data.table)\r')
