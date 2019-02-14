@@ -1,7 +1,7 @@
 import os
 from shutil import copyfile
 
-project_name = 'test'
+project_name = 'DIR13022019'
 dir_base = 'c:/projects/Occasional'
 dir_project = os.path.join(dir_base, project_name)
 
