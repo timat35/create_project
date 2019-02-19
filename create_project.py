@@ -5,6 +5,7 @@ project_name = 'test'
 dir_base = 'c:/projects/Occasional'
 dir_project = os.path.join(dir_base, project_name)
 
+bool_ci5XI= True
 bool_ci5plus= True
 bool_norpred = False
 
@@ -84,6 +85,9 @@ if not os.path.exists(dir_project):
     r_file.write('library(data.table)\r')
     r_file.write('library(Rcan)\r\n')
     r_file.close()
+    
+    if (bool_ci5XI):
+        copyfile('./CI5XI_registry_selection.csv', os.path.join(dir_project, '_dict', './CI5XI_registry_selection.csv'))
 
     if (bool_ci5plus):
         copyfile('./CI5plus_registry_selection.csv', os.path.join(dir_project, '_dict', './CI5plus_registry_selection.csv'))
