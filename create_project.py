@@ -1,13 +1,15 @@
 import os
 from shutil import copyfile
 
-project_name = 'DIR13022019'
-dir_base = 'c:/projects/Occasional'
+project_name = '20190311isa'
+dir_base = 'c:/projects/occasional'
 dir_project = os.path.join(dir_base, project_name)
 
-bool_ci5XI= True
-bool_ci5plus= True
+bool_ci5XI= False
+bool_ci5plus= False
 bool_norpred = False
+
+bool_map_general = True
 
 if not os.path.exists(dir_project):
 
@@ -66,7 +68,7 @@ if not os.path.exists(dir_project):
     do_file.write('local color_cat4 "255 117 0"\r\n')
 
     do_file.write('// prepare color \r')
-    do_file.write('insheet using "${dir_DATA}\_dict\color_trend.csv", comma clear name\r\n')
+    do_file.write('insheet using "${dir_DATA}\\_dict\\color_trend.csv", comma clear name\r\n')
 
     do_file.write('forvalues i =1/ 27 {\r')
     do_file.write(" local color`i' = color[`i']\r")
@@ -84,6 +86,18 @@ if not os.path.exists(dir_project):
     r_file.write('library(ggplot2)\r')
     r_file.write('library(data.table)\r')
     r_file.write('library(Rcan)\r\n')
+
+    if (bool_map_general):
+
+        r_file.write('source("C:/Projects/Standard_maps/general_WHO_map.r")\r')
+
+        r_file.write('colors_hdi <- c("#D7191C","#E66101","#ABD9E9","#2C7BB6")\r')
+        r_file.write('colors_incidence_5 <-  c( "#eff3ff","#b5cae6","#7ba2cd", "#4179b4","#08519c")\r')
+        r_file.write('colors_mortality_5 <-  c( "#fee5d9","#fcae91", "#fb6a4a","#de2d26", "#a50f15")\r')
+
+        r_file.write('color_graph <- colors_incidence_5\r\n')        
+
+
     r_file.close()
     
     if (bool_ci5XI):
