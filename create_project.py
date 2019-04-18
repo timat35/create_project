@@ -15,7 +15,7 @@ from shutil import copyfile
 
 
 
-project_name = 'LatinAmerica'
+project_name = 'Asia'
 dir_base = 'C:/Projects/globocan2018_graph/region'
 dir_project = os.path.join(dir_base, project_name)
 
